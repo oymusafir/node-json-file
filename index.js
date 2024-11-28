@@ -14,6 +14,11 @@ function writeData(data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 }
 
+app.get('/', (req, res) => {
+  res.send('Hello, Dear world!');
+});
+
+
 app.get("/data", (req, res) => {
   try {
     const data = readData();

@@ -1,0 +1,16 @@
+{
+  "name": "json-file-online",
+  "version": "1.0.0",
+  "description": "this is a simple project to put a json file on server and use from multiple places and update it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Adnan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "json": "^11.0.0"
+  }
+}

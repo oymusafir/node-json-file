@@ -22,5 +22,5 @@ A simple Node.js application to read and update a JSON file using a RESTful API.
 The app runs on http://localhost:4000.
 
 ## Usage
-- *GET `/data`**: Fetch all data.
-- *POST `/data`**: Send JSON data to update the file.
+- **GET `/data`**: Fetch all data.
+- **POST `/data`**: Send JSON data to update the file.

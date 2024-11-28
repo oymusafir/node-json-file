@@ -34,6 +34,6 @@ app.post("/data", (req, res) => {
   }
 });
 
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`port is listening on ${port}`);
 });
